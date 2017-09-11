@@ -644,4 +644,6 @@ app.post('/listarImagenesPreguntas', (req, res) => {
 });
 
 
-app.listen(8080);
+app.listen(8080, function(){
+	console.log("The server is running");
+});
