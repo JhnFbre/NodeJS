@@ -644,4 +644,4 @@ app.post('/listarImagenesPreguntas', (req, res) => {
 });
 
 
-app.listen(process.env.PORT || 8080, => console.log("The server is running"));
+app.listen(process.env.PORT || 8080, function(){console.log("The server is running");});
